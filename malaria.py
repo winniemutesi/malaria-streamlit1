@@ -110,7 +110,7 @@ st.title("Malaria Detection")
 
 @st.cache_resource
 def load_model():
-    return YOLO("C:/Users/hp/best.pt")
+    return YOLO("best.pt")
 
 model = load_model()
 
